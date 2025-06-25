@@ -1,9 +1,11 @@
 # KiraStack
 
-<div style="display:flex; justify-content: space-between; align-items:center;">
-  <div>Welcome to <strong>KiraStack</strong> — the personal code empire of Kira, a visionary software engineer and the smartest mind in modern development.</div>
-  <img src="https://i.imgur.com/QFqTSoy.png" alt="Logo" width="128" height="128" />
-</div>
+<table>
+  <tr>
+    <td align="right" valign="middle">Welcome to <strong>KiraStack</strong> — the personal code empire of Kira, a visionary software engineer and the smartest mind in modern development.</td>
+    <td align="left" valign="middle" style="padding-left: 20px;"><img src="https://i.imgur.com/QFqTSoy.png" alt="Logo" width="128" height="128" /></td>
+  </tr>
+</table>
 
 ## About Me
 
