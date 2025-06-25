@@ -32,8 +32,6 @@
 -   **Security**: Minimal attack surface with scalable, robust designs.
 -   **Elegance**: Simple yet powerful solutions — clear, concise, and efficient.
 
----
-
 ## Connect
 
 _Follow my work. Witness software evolution in real time._<br>
