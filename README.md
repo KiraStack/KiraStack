@@ -1,4 +1,4 @@
-```Plaintext
+`````console
 > neofetch
                    -`
                   .o+`
@@ -19,4 +19,18 @@
   `+sso+:-`                 `.-/+oso:
  `++:.                           `-/+/
  .`                                 `/
-```
+`````
+
+![](https://github-readme-stats.vercel.app/api?username=KiraStack)
+
+<br/>
+
+![](https://github-readme-streak-stats.herokuapp.com/?user=KiraStack)
+
+<br/>
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=KiraStack)
+
+<br/>
+
+![](https://github.com/KiraStack/KiraStack/blob/main/public/snake.svg)
