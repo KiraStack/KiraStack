@@ -35,7 +35,7 @@ SOFTWARE. -->
            `/++++++++++++++:               Occupation: Software Engineer
           `/+++ooooooooooooo/`             Repositories: 1 (as of update)
          ./ooosssso++osssssso+`          └───────────────────────────────┘
-        .oossssso-````/ossssss+`                <!-- ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ -->
+        .oossssso-````/ossssss+`            <!-- ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ -->
        -osssssso.      :ssssssso.
       :osssssss/        osssso+++.
      /ossssssss/        +ssssooo/-
@@ -50,9 +50,19 @@ SOFTWARE. -->
 
 <!-- Create stats section -->
 <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KiraStack" alt="Languages" />
-    <img src="https://github-readme-stats.vercel.app/api?username=KiraStack" alt="Stats" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=KiraStack" alt="Streak" />
+    <!-- Create responsive stat card -->
+    <picture>
+        <source
+            srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
+            media="(prefers-color-scheme: dark)"
+        />
+        <source
+            srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true"
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+            />
+        <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+    </picture>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KiraStack&layout=compact" />
     <!-- <img src="./public/snake.svg" alt="Snake" /> -->
 </div>
 </div>
