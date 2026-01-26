@@ -45,15 +45,14 @@ SOFTWARE. -->
  .`                                 `/
     </pre>
 
-    <!-- Create divider -->
-    <hr style="width: 80%; height: 0.1rem; border: none; background-color: rgba(0, 0, 0, 0.2);" />
+<!-- Create divider -->
+<hr style="width: 80%; height: 0.1rem; border: none; background-color: rgba(0, 0, 0, 0.2);" />
 
-    <!-- Create stats section -->
-    <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KiraStack" alt="Languages" />
-        <img src="https://github-readme-stats.vercel.app/api?username=KiraStack" alt="Stats" />
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=KiraStack" alt="Streak" />
-        <!-- <img src="./public/snake.svg" alt="Snake" /> -->
-    </div>
-
+<!-- Create stats section -->
+<div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KiraStack" alt="Languages" />
+    <img src="https://github-readme-stats.vercel.app/api?username=KiraStack" alt="Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=KiraStack" alt="Streak" />
+    <!-- <img src="./public/snake.svg" alt="Snake" /> -->
+</div>
 </div>
