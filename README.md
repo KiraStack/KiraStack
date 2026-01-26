@@ -1,7 +1,47 @@
-<!-- Create flex-box -->
-<div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
-    <!-- Create code block-->
-    <pre style="background-color: #f5f5f5; padding: 1rem; border-radius: 8px; text-align: left; font-family: monospace;">
+<!-- #!/usr/bin/htm -->
+<!-- Copyright (c) 2026–now, Kira Hasegawa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. -->
+
+<head>
+<!-- Define HTM styles -->
+<style>
+    div.section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    pre.block { /* code block */
+        background-color: #f5f5f5;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        text-align: left;
+        font-family: monospace;
+    }
+    </style>
+</head>
+<body>
+    <!-- Create flex-box -->
+    <div class="section">
+        <!-- Create code-block -->
+        <pre class="block" style="color: rgb(58, 58, 197)";>
 > neofetch
                    -`
                   .o+`
@@ -10,28 +50,31 @@
                `+oooooo:                   Country: China
                -+oooooo+:                  Editor: Neovim
              `/:-:++oooo+:                 Language: Rust
-            `/++++/+++++++:                OS: Windows x86_64
-           `/++++++++++++++:               Occupation: Software Engineer
-          `/+++ooooooooooooo/`             Repositories: 1 (as of update)
+            `/++++/+++++++:                Job: Software Engineer
+           `/++++++++++++++:               Software: Arch Linux x86_64
+          `/+++ooooooooooooo/`             Repositories: 1 (est.)
          ./ooosssso++osssssso+`          └───────────────────────────────┘
-        .oossssso-````/ossssss+`                ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤
+        .oossssso-````/ossssss+`                <!-- ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ -->
        -osssssso.      :ssssssso.
       :osssssss/        osssso+++.
      /ossssssss/        +ssssooo/-
    `/ossssso+/:-        -:/+osssso+-
   `+sso+:-`                 `.-/+oso:
  `++:.                           `-/+/
- .`                                 `/ 
-    </pre>
+ .`
+        </pre>
+    </div>
+    <div>
+        <!-- Create divider -->
+        <hr style="width: 80%; height: 0.1rem; border: none; background-color: rgba(0, 0, 0, 0.2);" />
 
-    <!-- Create divider -->
-    <hr style="width: 80%;"/>
-
-    <!-- Create stat paragraph -->
-    <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
-        <img src="https://github-readme-stats.vercel.app/api?username=KiraStack" alt="GitHub Stats" />
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=KiraStack" alt="Streak Stats" />
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KiraStack" alt="Top Languages" />
+        <!-- Create stats section -->
+        <div class="section">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KiraStack" alt="Languages" />
+            <img src="https://github-readme-stats.vercel.app/api?username=KiraStack" alt="Stats" />
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=KiraStack" alt="Streak" />
+            <!-- <img src="./public/snake.svg" alt="Snake" /> -->
+        </div>
     </div>
 
-</div>
+</body>
