@@ -19,6 +19,35 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. -->
 
+<!--
+// Create flex-box
+<div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+    // Create code-block
+    <pre style="background-color: #f5f5f5; padding: 1rem; border-radius: 0.5rem; text-align: left; font-family: monospace;">
+> neofetch
+                   -`
+                  .o+`
+                 `ooo/                      USER: kira@arch
+                `+oooo:                  ┌───────────────────────────────┐
+               `+oooooo:                   Country: China
+               -+oooooo+:                  Editor: Neovim
+             `/:-:++oooo+:                 Language: Rust
+            `/++++/+++++++:                OS: Arch Linux x86_64
+           `/++++++++++++++:               Occupation: Software Engineer
+          `/+++ooooooooooooo/`             Repositories: 1 (as of update)
+         ./ooosssso++osssssso+`          └───────────────────────────────┘
+        .oossssso-````/ossssss+`
+       -osssssso.      :ssssssso.
+      :osssssss/        osssso+++.
+     /ossssssss/        +ssssooo/-
+   `/ossssso+/:-        -:/+osssso+-
+  `+sso+:-`                 `.-/+oso:
+ `++:.                           `-/+/
+ .`                                 `/
+    </pre>
+</div>
+-->
+
 `````console
 > neofetch
                    -`
@@ -32,7 +61,7 @@ SOFTWARE. -->
            `/++++++++++++++:               Occupation: Software Engineer
           `/+++ooooooooooooo/`             Repositories: 1 (as of update)
          ./ooosssso++osssssso+`          └───────────────────────────────┘
-        .oossssso-````/ossssss+`            <!-- ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ -->
+        .oossssso-````/ossssss+`
        -osssssso.      :ssssssso.
       :osssssss/        osssso+++.
      /ossssssss/        +ssssooo/-
@@ -43,7 +72,7 @@ SOFTWARE. -->
 `````
 
 <!-- Create divider -->
-<hr style="width: 80%; height: 0.1rem; border: none; background-color: rgba(0, 0, 0, 0.2);" />
+<hr style="width: 80%; height: 0.01rem; border: none; background-color: rgba(0, 0, 0, 0.2);" />
 
 <!-- Create stats section -->
 <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
