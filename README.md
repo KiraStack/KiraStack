@@ -22,7 +22,7 @@ SOFTWARE. -->
 <!-- Create flex-box -->
 <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
     <!-- Create code-block -->
-    <pre style="background-color: #f5f5f5; padding: 1rem; border-radius: 0.5rem; text-align: left; font-family: monospace;">
+    <pre style="background-color: #f5f5f5; color: #3f87d3; padding: 1rem; border-radius: 0.5rem; text-align: left; font-family: monospace;">
 > neofetch
                    -`
                   .o+`
