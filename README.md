@@ -1,4 +1,7 @@
-`````console
+<!-- Create flex-box -->
+<div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+    <!-- Create code block-->
+    <pre style="background-color: #f5f5f5; padding: 1rem; border-radius: 8px; text-align: left; font-family: monospace;">
 > neofetch
                    -`
                   .o+`
@@ -18,19 +21,17 @@
    `/ossssso+/:-        -:/+osssso+-
   `+sso+:-`                 `.-/+oso:
  `++:.                           `-/+/
- .`                                 `/
-`````
+ .`                                 `/ 
+    </pre>
 
-![](https://github-readme-stats.vercel.app/api?username=KiraStack)
+    <!-- Create divider -->
+    <hr style="width: 80%;"/>
 
-<br/>
+    <!-- Create stat paragraph -->
+    <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+        <img src="https://github-readme-stats.vercel.app/api?username=KiraStack" alt="GitHub Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=KiraStack" alt="Streak Stats" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KiraStack" alt="Top Languages" />
+    </div>
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=KiraStack)
-
-<br/>
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=KiraStack)
-
-<br/>
-
-![](https://github.com/KiraStack/KiraStack/blob/main/public/snake.svg)
+</div>
